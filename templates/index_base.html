@@ -1,0 +1,15 @@
+<DOCTYPE! html>
+<html lang="en-US">
+<head>
+<title>{{title}}</title>
+<meta charset="utf-8"/>
+</head>
+<body>
+<p> {{some_text}} </p>
+{% block body %}
+{% endblock %}
+{% if index_bool %}
+{% include "links.html" %}
+{% endif %}
+</body>
+</html>
